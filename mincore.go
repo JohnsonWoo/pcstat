@@ -21,7 +21,7 @@ import (
 	"os"
 	"unsafe"
 
-	"golang.org/x/sys/unix"
+	"github.com/golang/sys/unix"
 )
 
 // mmap the given file, get the mincore vector, then

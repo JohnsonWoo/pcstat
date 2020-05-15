@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/sys/unix"
+	"github.com/golang/sys/unix"
 )
 
 // not available before Go 1.4
